@@ -1,0 +1,408 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.42;
+  background: #00141e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  background: url("./img/bg/hero.jpg") center top no-repeat, url("/img/bg/bottom-pic.jpg") сenter bottom 300px no-repeat;
+}
+
+.header {
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+  width: 1140px;
+  margin-bottom: 110px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.header .menu {
+  position: absolute;
+  top: 32px;
+  left: 165px;
+}
+
+.header .contacts {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item--active .menu__title {
+  color: #f5170e;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__title {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__title:hover{
+  color: #f5170e;
+
+}
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.page-content {
+  position: relative;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.headline {
+  width: 510px;
+  margin-bottom: 250px
+
+}
+.headline__name {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.headline__text {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 33px;
+}
+
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  border-width: 0;
+  padding: 17px 40px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #da0100;
+}
+
+.preview {
+  margin-bottom: 140px;
+}
+
+.preview__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 45px;
+
+}
+
+.preview__title-icon {
+  margin-left: 25px;
+}
+
+.preview-item {
+  height: 440px;
+  vertical-align: top;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 20px;
+  width: 360px;
+  color: #000000;
+}
+
+.preview-item:last-child {
+  margin-right: 0;
+}
+
+.preview-item__img {
+  display: block;
+  width: 360px;
+  top: -40px;
+}
+
+.preview-item__name {
+  background: #fff;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.preview-item__list {
+  padding-left: 25px;
+  font-weight: bold;
+  }
+
+.preview-item__info {
+  display: inline-block;
+}
+
+.preview-item__text-info {
+  padding: 25px 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.preview-item__text {
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.preview-item__btn {
+background: #fff;
+border: 10px solid red;
+border-radius: 35px;
+border-width: 0;
+padding: 17px 40px;
+color: red;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+display: inline-block;
+}
+
+.preview-item__btn:hover {
+background: #da0100;
+color: #fff;
+}
+
+.news__list-info {
+  width: 555px;
+  height: 390px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 150px;
+}
+.news__contentnews-time {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.news__content-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news {
+  margin-bottom: 55px;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.paginator__display {
+  margin-right: 26px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__item--active .paginator__link {
+  background: white;
+  color: red;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+.about:before {
+  content: "";
+  display: inline-block;
+  width: 490px;
+  height: 510px;
+  background: url(./img/decor/gates.jpg) center center / cover no-repeat;
+}
+
+.about__aside {
+  display: inline-block;
+  padding: 80px 98px;
+  width: 780px;
+  height: 455px;
+  margin-left: -150px;
+  margin-top: 150px;
+}
+
+.about__aside-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__aside-span {
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.about__aside-info {
+  margin-bottom: 42px;
+}
+
+.about__aside-info  p {
+  margin-bottom: 20px;
+}
+
+.about__aside-info  p:last-child {
+  margin-bottom: 0;
+}
+.footer-container__content {
+  border-top: 1px solid #1a3039;
+}
+
+.footer {
+  height: 150px;
+  position: relative;
+}
+
+.footer .menu {
+  position: absolute;
+  top: 32px;
+  left: 165px;
+}
+
+.footer .contacts {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.social {
+  position: absolute;
+  top:53px;
+  right: 300px;
+}
+
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__item--icon--telegram .social__link {
+  background-image: url(./img/icons/socials/telegram.png);
+}
+.social__item--icon--telegram .social__link:hover {
+  background-image: url(./img/icons/socials/telegram-hover.png);
+}
+.social__item--icon--vk .social__link {
+  background-image: url(./img/icons/socials/vkontakte.png);
+}
+.social__item--icon--vk .social__link:hover {
+  background-image: url(./img/icons/socials/vk-hover.png);
+}
+.social__item--icon--fb .social__link {
+  background-image: url(./img/icons/socials/facebook.png);
+}
+.social__item--icon--fb .social__link:hover {
+  background-image: url(./img/icons/socials/facebook-hover.png);
+}
+.social__item--icon--inst .social__link {
+  background-image: url(./img/icons/socials/instagram.png);
+}
+.social__item--icon--inst .social__link:hover {
+  background-image: url(./img/icons/socials/instagram-hover.png);
+}
