@@ -112,12 +112,14 @@ p {
   margin: 0 auto;
   width: 1140px;
 }
+.headline {
+  margin-bottom: 250px;
+}
 
 .headline__text-section {
   width: 510px;
-  margin-bottom: 250px
-
 }
+
 .headline__title {
   font-size: 72px;
   font-weight: bold;
@@ -178,16 +180,16 @@ p {
 }
 
 .offers__header {
-  width: 360px;
   height: 140px;
   overflow: hidden;
-  margin-bottom: 0;
 }
 
 .offers__header-img {
   width: 100%;
-  margin: -40px 0 0 0;
+  height: 100%;
+  object-fit: cover;
 }
+
 .offers__content {
   padding: 20px 25px 25px 25px;
 
@@ -214,15 +216,16 @@ p {
  margin-right: 0px;
 }
 
+.iconed-title__icon {
+  vertical-align: middle;
+}
+
 .iconed-title__text{
   font-size: 16px;
-  display: inline;
-  position: absolute;
-  margin-top: 3px;
+  display: inline-block;
   margin-left: 9px;
   text-align: left;
   color: #666666;
-  
 }
 
 .offers__btn {
@@ -271,7 +274,7 @@ color: #fff;
 
 .news__content {
   position: absolute;
-  left: 5px;
+  left: 100%;
   right: 0;
   bottom: 0;
   padding: 25px 25px;
@@ -291,9 +294,6 @@ color: #fff;
 .news__text {
   font-size: 16px;
   margin-bottom: 5px;
-}
-.news {
-  margin-bottom: 30px;
 }
 
 .paginator {
@@ -347,37 +347,35 @@ color: #fff;
   padding: 10px 0 10px 0;
   width: 780px;
   height: 470px;
-  margin-left: -140px;
+  margin-left: -135px;
   margin-top: 100px;
   overflow: hidden;
 }
 
 .about__content {
-  position: absolute;
-  left: 90px;
-  right: 90px;
-  bottom: 0;
-  padding: 85px 5px;
+  position: relative;
+  padding: 65px 100px;
 }
 
 .about__desk-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
 }
 
 .about__desk-title {
   color: black;
   font-size: 36px;
   font-weight: bold;
-  padding-bottom: 20px;
+    padding-top: 5px;
 }
 
 .about__desk-text {
   font-size: 16px;
   color: black;
   margin-top: 30px;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
   
 }
 
@@ -389,7 +387,7 @@ color: #fff;
   margin-bottom: 0;
 }
 
-.footer-container__content {
+.footer-container {
   border-top: 1px solid #1a3039;
 }
 
