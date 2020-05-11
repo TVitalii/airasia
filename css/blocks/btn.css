@@ -1,0 +1,42 @@
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  border-width: 0;
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #da0100;
+}
+
+.offer__btn {
+  display: flex;
+  justify-content: start;
+}
+
+.offer__btn-btn {
+  background: #fff;
+  border: 1px solid red;
+  border-radius: 35px;
+  border-width: 1px;
+  padding: 15px 20px;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.offer__btn-btn:hover {
+  background: #da0100;
+  color: #fff;
+}

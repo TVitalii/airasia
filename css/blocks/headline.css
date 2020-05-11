@@ -1,0 +1,20 @@
+.headline {
+  margin-bottom: 245px;
+}
+
+.headline__text-section {
+  width: 45%;
+}
+
+.headline__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.headline__subtitle {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 33px;
+}

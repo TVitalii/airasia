@@ -1,0 +1,35 @@
+
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-container__section {
+  height: 150px;
+  margin-top: 40px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #1a3039;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  align-items: center;
+}
+
+.footer__column--align--right {
+  align-items: flex-end;
+}
+
+.footer .contacts {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}

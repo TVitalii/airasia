@@ -1,0 +1,40 @@
+.page-content {
+  padding-top: 100px;
+  position: relative;
+  background: #fff;
+  color: #303030;
+}
+
+.services {
+  margin-bottom: 65px;
+}
+
+.service {
+  display: flex;
+  height: 330px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.service__img {
+  width: 40%;
+  object-fit: cover;
+  margin-right: 5%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
