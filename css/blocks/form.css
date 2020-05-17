@@ -1,0 +1,67 @@
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+  padding: 22px 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+
+.form__input--textarea {
+  height: 235px;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls-title {
+  width: 35%;
+  padding-left: 10px;
+}
+
+/*Страница review*/
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--color--black {
+  background: #2b2b2b;
+}
+
+.btn--color--black:hover {
+  background: #8e8e8e;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.form__btn {
+  margin-right: 20px;
+}
+
+.form__btn:last-child {
+  margin-right: 0px;
+}

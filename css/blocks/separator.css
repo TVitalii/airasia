@@ -1,0 +1,21 @@
+.separator {
+  background: url("../img/bg/middleline.jpg") center top no-repeat;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__background-before {
+  background: url("../img/decor/couple.png") right top no-repeat;
+}
+
+.separator__content {
+  max-width: 50%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}

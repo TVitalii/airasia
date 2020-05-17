@@ -1,6 +1,54 @@
 .contacts {
   font-style: normal;
   text-align: right;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__sticker {
+  display: block;
+}
+.dropdown:hover .contacts__dropdown-title {
+  color: #fff;
+}
+
+
+.dropdown__sticker {
+  position: absolute;
+  background: #dbdedd;
+  border: 1px solid #dbdedd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 155px;
+  top: 100%;
+  display: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+  left: 20%;
+ /*
+  padding: 15px 0 15px;
+  margin-top: 5px;
+
+  
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);*/
+}
+.dropdown__sticker:before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
 }
 
 .contacts__text {
@@ -17,4 +65,5 @@
 .contacts__dropdown-title {
   font-size: 13px;
   text-decoration: underline;
+  color: #8d9797;
 }
