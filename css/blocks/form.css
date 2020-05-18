@@ -28,7 +28,7 @@
 
 .form__controls {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .form__controls-title {
@@ -59,7 +59,7 @@
 }
 
 .form__btn {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .form__btn:last-child {

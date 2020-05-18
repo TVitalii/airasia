@@ -1,5 +1,5 @@
 .separator {
-  background: url("../../img/decor/couple.png") right / contain no-repeat, url("../img/decor/couple.png") right top no-repeat, url("../../img/bg/middleline.jpg") center top no-repeat;
+  background: url("../../img/decor/couple.png") 80% / contain no-repeat, url("../../img/bg/middleline.jpg") center top no-repeat;
   min-height: 360px;
   display: flex;
   flex-direction: column;
