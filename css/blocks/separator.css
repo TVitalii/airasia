@@ -1,17 +1,13 @@
 .separator {
-  background: url("../img/bg/middleline.jpg") center top no-repeat;
+  background: url("../../img/decor/couple.png") right / contain no-repeat, url("../img/decor/couple.png") right top no-repeat, url("../../img/bg/middleline.jpg") center top no-repeat;
   min-height: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.separator__background-before {
-  background: url("../img/decor/couple.png") right top no-repeat;
-}
-
 .separator__content {
-  max-width: 50%;
+  max-width: 55%;
 }
 
 .separator__title {

@@ -28,11 +28,11 @@
 
 .form__controls {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .form__controls-title {
-  width: 35%;
+  width: 33%;
   padding-left: 10px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .form__btn {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .form__btn:last-child {

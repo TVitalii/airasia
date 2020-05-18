@@ -7,7 +7,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url("../../img/bg/screen.jpg") center bottom / cover no-repeat;
+  background: url("../../img/decor/shades.png") center no-repeat, url("../../img/bg/screen.jpg") center bottom / cover no-repeat;
 }
 
 .central {
@@ -17,7 +17,7 @@
 }
 
 .central__title {
-  margin-bottom: 65px;
+  margin-bottom: 55px;
   font-size: 18px;
 }
 

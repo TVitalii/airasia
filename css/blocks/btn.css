@@ -2,8 +2,9 @@
   background: #f5170e;
   border-radius: 35px;
   border-width: 0;
-  padding: 15px 30px;
+  padding: 20px 40px;
   color: white;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -39,4 +40,16 @@
 .offer__btn-btn:hover {
   background: #da0100;
   color: #fff;
+}
+
+.btn--input {
+  background: #f5170e;
+  border-radius: 35px;
+  border-width: 0;
+  padding: 15px 50px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;  
 }
