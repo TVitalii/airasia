@@ -5,7 +5,7 @@
 .social {
   display: flex;
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 265px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .social__item--icon--inst .social__link {
-  background: url("../../img/icons/socials/social_sprites.png") -10px -66px; no-repeat;
+  background: url("../../img/icons/socials/social_sprites.png") -10px -66px no-repeat;
   transition: .0s;
 }
 

@@ -17,7 +17,6 @@
   color: #fff;
 }
 
-
 .dropdown__sticker {
   position: absolute;
   background: #dbdedd;
@@ -39,10 +38,11 @@
   content: "";
   display: block;
   position: absolute;
-  border: 10px solid transparent;
+  border: 15px solid transparent;
   border-bottom: 10px solid #dbdedd;
   bottom: 100%;
-  right: 50px;
+  right: 40px;
+  transition: 5s;
 }
 
 .dropdown__sticker::before {
@@ -53,6 +53,7 @@
   height: 100%;
   bottom: 100%;
   left: 0;
+  transition: 5s;
 }
 
 .contacts__text {
