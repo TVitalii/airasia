@@ -1,119 +1,61 @@
+.social__item {
+  margin-right: 10px;
+}
+
 .social {
   display: flex;
   position: absolute;
-  top: 40px;
-  right: 350px;
+  top: 20px;
+  right: 265px;
 }
 
-.social__item {
-  content: "";
+.social__link {
   display: block;
-  margin-right: 10px;
+  text-decoration: none;
   width: 36px;
   height: 36px;
-  padding: 10px;
-  text-decoration: none;
-  border-radius: 50%;
-  position: relative;
 }
 
 .social__item:last-child {
   margin-right: 0;
 }
 
-.social__item--icon--telegram:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: url("../../img/icons/socials/social_sprites.png") -122px -10px;
-}
-.social__item--icon--telegram:hover:after {
-  background: url("../../img/icons/socials/social_sprites.png") -122px -66px;
-}
-
-.social__item--icon--vk:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translate(50%, -50%);
-  background: url("../../img/icons/socials/social_sprites.png") -10px -122px;
-}
-
-.social__item--icon--vk:hover:after {
-  background: url("../../img/icons/socials/social_sprites.png") -66px -122px;
-}
-
-.social__item--icon--fb:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: url("../../img/icons/socials/social_sprites.png") -10px -10px;
-}
-.social__item--icon--fb:hover:after {
-  background: url("../../img/icons/socials/social_sprites.png") -66px -10px;
-}
-
-.social__item--icon--fb:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: url("../../img/icons/socials/social_sprites.png") -122px -10px;
-}
-
-.social__item--icon--fb:hover:after {
-  background: url("../../img/icons/socials/social_sprites.png") -122px -66px;
-}
-
-.social__item--icon--inst:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: url("../../img/icons/socials/social_sprites.png") -10px -66px;
-}
-.social__item--icon--inst:hover:after {
-  background: url("../../img/icons/socials/social_sprites.png") -66px -66px;
-}
-
-
-/*
-.social__item--icon--telegram:hover {
-  background: url("../../img/icons/socials/social_sprites.png") -122px -66px;
+.social__item--icon--telegram .social__link {
+  background: url("../../img/icons/socials/social_sprites.png") -122px -10px no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--telegram .social__link:hover {
-  background-image: url("../../img/icons/socials/telegram-hover.png");
+  background: url("../../img/icons/socials/social_sprites.png") -122px -66px no-repeat;
+  transition: 0s;
 }
 
 .social__item--icon--vk .social__link {
-  background-image: url("../../img/icons/socials/vkontakte.png");
+  background: url("../../img/icons/socials/social_sprites.png") -10px -122px no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--vk .social__link:hover {
-  background-image: url("../../img/icons/socials/vkontakte-hover.png");
+  background: url("../../img/icons/socials/social_sprites.png") -66px -122px no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--fb .social__link {
-  background-image: url("../../img/icons/socials/facebook.png");
+  background: url("../../img/icons/socials/social_sprites.png") -10px -10px no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--fb .social__link:hover {
-  background-image: url("../../img/icons/socials/facebook-hover.png");
+  background: url("../../img/icons/socials/social_sprites.png") -66px -10px no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--inst .social__link {
-  background-image: url("../../img/icons/socials/instagram.png");
+  background: url("../../img/icons/socials/social_sprites.png") -10px -66px; no-repeat;
+  transition: .0s;
 }
 
 .social__item--icon--inst .social__link:hover {
-  background-image: url("../../img/icons/socials/instagram-hover.png");
-}*/
+  background: url("../../img/icons/socials/social_sprites.png") -66px -66px no-repeat;
+  transition: .0s;
+}
