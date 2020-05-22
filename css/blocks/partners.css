@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 65px;
 }
 
 .partners__item:nth-child(4n+1) {

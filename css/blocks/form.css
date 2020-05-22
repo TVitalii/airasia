@@ -55,7 +55,7 @@
 .form__btns {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 100px;
+
 }
 
 .form__btn {
